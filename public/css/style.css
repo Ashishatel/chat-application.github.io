@@ -1,0 +1,64 @@
+body{
+    background-image: linear-gradient(30deg,green,lightblue);
+    height: 100vh;
+}
+.logo{
+    display: block;
+    height: 60px;
+    width: 60px;
+    margin: auto;
+}
+.text{
+    text-align: center;
+    font-family: cursive;
+    margin-top: 0px;
+}
+.container{
+    background-color: darkturquoise;
+    height: 400px;
+    width: 900px;
+    margin:auto;
+    border: 2px solid blue;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+.message{
+    background-color: lightgoldenrodyellow;
+    width: 25%;
+    margin: 15px 17px;
+    border: 1px solid black;
+    /* height: 23px; */
+    padding: 10px ;
+}
+
+.left{
+    float: left;
+    clear: both;
+    border-radius: 8px 8px 8px 0px;
+}
+
+.right{
+    float: right;
+    clear: both;
+    border-radius: 8px 8px 0px 8px;
+
+}
+input{
+    outline: none;
+    width: 835px;
+    text-align: center;
+    height: 36px;
+    font-size: medium;
+    border-color: white;
+    border-radius: 5px;
+}
+button{
+    height: 42px;
+    border-color: white;
+    border-radius: 5px;
+}
+.send{
+    text-align: center; 
+    padding-top:10px;
+}
